@@ -19,6 +19,11 @@ import re
 log = logging.getLogger(__name__)
 
 
+#Definir qual plugin ser usado
+#Funcoes basicas a serem herdadas para cada roteiro: acl, backup, criar rede, etc
+#gerenciar conexoes a equipamentos concorrentes
+
+
 class PluginFactory(object):
 
     @classmethod
